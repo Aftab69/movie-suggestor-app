@@ -12,10 +12,10 @@ function App() {
       <Navbar />
       <AnimatePresence>
         <Routes>
-          <Route path="/movie-suggestor-2/" element={<Home />} />
-          <Route path="/movie-suggestor-2/popularmovies" element={<PopularMovies />} />
-          <Route path="/movie-suggestor-2/topratedmovies" element={<TopRatedMovies />} />
-          <Route path="/movie-suggestor-2/searchmovies" element={<SearchMovies />}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/popularmovies" element={<PopularMovies />} />
+          <Route path="/topratedmovies" element={<TopRatedMovies />} />
+          <Route path="/searchmovies" element={<SearchMovies />}/>
         </Routes>
       </AnimatePresence>
     </>
