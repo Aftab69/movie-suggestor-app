@@ -1,0 +1,11 @@
+.popularMoviesPageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 720px) {
+    .popularMoviesPageContainer {
+      margin-top: 2vh;
+    }
+  }

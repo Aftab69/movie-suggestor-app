@@ -1,0 +1,11 @@
+.topRatedMoviesPageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 720px) {
+    .topRatedMoviesPageContainer {
+      margin-top: 2vh;
+    }
+  }

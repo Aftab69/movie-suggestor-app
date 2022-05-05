@@ -1,0 +1,39 @@
+.movie_Container{
+    width:min-content;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px rgb(97, 95, 95);
+    margin: 2vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.movie_Image > img{
+    width: 12.3vw;
+}
+.movie_Texts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.title_Text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .movie_Image > img {
+        width: 35vw;
+    }
+    .movie_Texts{
+        font-size: 2vw;
+    }
+  }
