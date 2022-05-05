@@ -4,8 +4,8 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "https://movie-suggestor-app.herokuapp.com/",
+  "start_url": "https://movie-suggestor-app.herokuapp.com/",
   "icons": [
     {
       "src": "maskable.png",
